@@ -1,0 +1,379 @@
+body,ul,li,a,h3{
+    margin: 0;padding: 0;list-style: none;text-decoration: none;color: #fff;
+}
+header{
+    width: 100%;height: 44px;background: #333333;
+}
+header .head-response{
+    width: 1000px;height: 44px;margin: 0 auto;
+}
+header .head-response ul li{
+    float: left;padding:0px 38px;
+    line-height: 42px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: normal;
+    opacity: 1;
+}
+
+
+
+
+header .head-responseS{
+    display: none;
+}
+header .head-responseS ul li{
+    float: left;padding:13px 38px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
+    opacity: 1;
+}
+header .head-responseS ul .left{
+    z-index: 5;
+    float: left;position: absolute;
+}
+header .head-responseS ul .left span{
+    padding: 0;margin: 0;
+}
+header .head-responseS ul .left .bottom{
+    position: relative;
+    top: -10px;
+}
+header .head-responseS ul .middle{
+    position: absolute;
+    width: 48px;
+    top: 0;
+    left: 40%;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+}
+header .head-responseS ul .right{
+    float: right;
+}
+
+
+
+header .head-response ul li a:hover{
+    opacity: 0.65;
+}
+.banner{
+    width: 100%;height: 606px;background: #fff;
+    overflow: hidden;
+    /*margin-top: 200px;*/
+}
+.banner .box{
+    width: 400%;height: 100%;box-sizing: border-box;
+    position: relative;
+}
+.banner .box .screen{
+    width: 25%;height: 100%;
+    overflow: hidden;
+    float: left;
+    box-sizing: border-box;
+    /*border: 1px solid #000;*/
+    /*position: relative;*/
+}
+.banner a div{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+}
+.banner a .title{
+    font-size: 40px;
+    margin-top: 50px;
+}
+.banner .screen1{
+    background: url("../images/iphone_6s_medium.jpg") no-repeat;
+    background-position: center 240px;
+}
+.banner a img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.banner .screen2{
+    background: url("../images/ipad_pro_family_medium.jpg") no-repeat;
+    background-position: center 200px;
+}
+.banner .screen3{
+    background: url("../images/apple_watch_trio_medium.jpg") no-repeat;
+    background-position: center 180px;
+}
+.banner .screen4{
+    background: url("../images/macbook_medium.png") no-repeat;
+    background-position: center 260px;
+}
+.banner .screen:nth-child(4) .title{
+    margin-top: 150px;
+}
+
+.banner ul{
+    position: absolute;left: 45%;bottom: 380px;
+}
+.banner ul li{
+    display: block;width: 8px;height: 8px;background: #999999;border-radius: 50%;
+    cursor: pointer;
+    margin-left: 28px;
+    float: left;
+}
+.banner ul li:first-child{
+    width: 9px;height: 9px;background: #fff;border: 1px solid blue;
+}
+
+
+/*banner小屏*/
+
+.bannerS{
+    width: 100%;height: 480px;background: #fff;display: none;
+    overflow: hidden;
+    position: relative;
+    /*margin-top: 200px;*/
+}
+.bannerS .box{
+    width: 400%;height: 100%;box-sizing: border-box;
+}
+.bannerS .box a{
+    float: left;
+    box-sizing: border-box;
+    /*border: 1px solid #000;*/
+    width: 25%;height: 100%;
+    position: relative;
+}
+.bannerS a div{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+}
+.bannerS a .title{
+    font-size: 20px;
+    margin-top: 100px;
+}
+.bannerS .screenS1{
+    background: url("../images/iphone_6s_small.jpg") no-repeat;
+    background-position: center 240px;
+}
+.bannerS a img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.bannerS .screenS2{
+    background: url("../images/ipad_pro_family_small.jpg") no-repeat;
+    background-position: center 200px;
+}
+.bannerS .screenS2 img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.bannerS .screenS3{
+    background: url("../images/apple_watch_trio_small.jpg") no-repeat;
+    background-position: center 180px;
+}
+.bannerS .screenS4{
+    background: url("../images/macbook_small.png") no-repeat;
+    background-position: center 200px;
+}
+.bannerS .screenS4 .title{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+.tuiguang{
+    box-sizing: border-box;
+    width: 100%;
+}
+.tuiguang ul li{
+    height: 200px;border-right: 2px solid #fff;border-top:2px;
+}
+.tuiguang ul li a{
+    display: block;
+    width: 100%;height: 100%;
+}
+.tuiguang ul li:first-child a{
+    background: url("../images/tradeup_medium.jpg");
+    background-position: center center;
+}
+.tuiguang ul li:nth-child(2) a{
+    background: url("../images/public_betas_medium.jpg");
+    background-position: center center;
+}
+.tuiguang ul li:nth-child(3) a{
+    background: url("../images/apple_music_exclusive_medium.jpg");
+    background-position: center center;
+}
+.tuiguang ul li:nth-child(4) a{
+    background: url("../images/hp_tiles_iphone_medium.jpg");
+    background-position: center center;
+}
+footer .center{
+    margin: 0 auto;padding: 0 22px;
+}
+
+
+footer{
+    overflow: hidden;
+    padding-top: 32px;
+    background: #F2F2F2;
+}
+footer a,h3{
+    color: #000;
+}
+footer h3{
+    font-size: 12px;
+    line-height: 1.66667;
+    font-weight: 600;
+    letter-spacing: normal;
+    color: #333;
+    margin: 0;
+}
+footer .center .top{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+footer .center .top .left{
+    float: left;
+    width: 20%;
+}
+
+footer .center .top .left li a{
+    color: #666;
+    font-size: 8px;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+footer .center .top .left li a:hover{
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+.footer{
+    background: #F2F2F2;
+}
+.footer{
+    color: #A4A8A9;
+    font-size: 12px;
+}
+.footer .center{
+    padding: 0 16px;
+    margin: 0 auto;overflow: hidden;
+}
+.footer a{
+    color: #2970CF;
+    font-size: 12px;
+}
+.footer .top{
+    padding-top: 32px;
+
+    padding-bottom: 5px;
+    border-bottom: 1px solid #E3E3E3;
+}
+.footer .middle{
+    margin-top: 10px;
+}
+.footer .end{
+    margin-top: 40px;
+}
+.footer .middle .right{
+    margin-left: 26px;
+}
+.footer .middle .right span{
+    padding-right: 12px;
+    border-right: 1px solid #c6c6c6;
+    margin-right: 10px;
+}
+.footer .middle .right span a{
+    color: #333;
+}
+.footerS{
+    display: none;
+    background: #F2F2F2;
+    /*padding-top: 32px;*/
+}
+.footerS .center{
+    padding: 0 16px;
+    overflow: hidden;
+}
+.footerS .floor{
+    overflow: hidden;
+    position: relative;
+}
+.footerS .title{
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2.78571;
+    font-weight: 400;
+    letter-spacing: normal;
+    color: #333;
+    margin: 0;
+}
+.footerS .right{
+    font-size: 14px;
+    line-height: 2.78571;
+    font-weight: 400;
+    letter-spacing: normal;
+    color: #333;
+    margin: 0;
+    float: right;
+    cursor: pointer;
+}
+.footerS .floor .none{
+    margin-top: 38px;
+    display: none;
+}
+.footerS .floor .none ul li{
+    height: 30px;
+    line-height: 30px;
+    /*border-bottom: 1px solid #3d3d3d;*/
+    text-decoration: none;
+    outline-offset: -6px;
+    padding: 0 14px;
+    display: block;
+}
+.footerS .floor .none ul li a{
+    color: #666;
+    font-size: 5px;
+
+}
+.footerS .floor .none ul li a:hover{
+    border-bottom: 1px solid #3d3d3d;
+    color: #000;
+}
+
+
+/*响应   768头部发生响应*/
+@media screen and (max-width: 768px){
+    header .head-response{
+        display: none;
+    }
+    header .head-responseS{
+        display: block;
+    }
+    footer{
+        display: none;
+    }
+    .footerS{
+        display: block;
+    }
+}
+@media screen and (max-width: 735px){
+    .banner{
+        display: none;
+    }
+    .bannerS{
+        display: block;
+    }
+
+}
